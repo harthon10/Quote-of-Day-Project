@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quotes.css">
+    <title>Quotes App</title>
+</head>
+<body>
+    <div>
+        <h1>Quote of The Day</h1>
+        <p>Press the button below to recieve a random quote!</p>
+        <div style="font-size:1.5em">
+           
+        <button onclick="generateQuote();">New Quote</button>
+        <p id="quoteOutput"></p>
+        <p id="authorOutput"></p>
+    </div>
+    <script src="quotes.js"></script> 
+    <div class="container">
+        <div class="row max-height align-items-center">
+         <div class="col-10 mx-auto col-md-8 message-container text-center p-3">
+          <h4 class="text-capitalize">Please enter a quote you would like to pass on</h4>
+          <form id="message-form">
+           <input type="text" name="" id="message" class="w-100 my-3 p-2">
+           <input type="submit" id="submitBtn" class="btn btn-lg">
+          </form>
+     
+        
+         </div>
+        </div>
+       </div>
+      
+
+    </body>
+</html>
